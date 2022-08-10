@@ -84,7 +84,7 @@ export default function Skillstab() {
           </Grid>
           <Grid item xs={12}>
 
-          <Typography variant="p" color="white">React.js, PL/SQL, PHP Laravel, Dart 
+          <Typography variant="p" color="white">React.js, PL/SQL, Dart 
           <SkillsRating ratingVal={3}/>
           </Typography>
 
@@ -102,7 +102,7 @@ export default function Skillstab() {
 
     <Grid item xs={12}>
         <Typography variant="p" color="white">PHP laravel  
-        <SkillsRating ratingVal={2.5}/></Typography>
+        <SkillsRating ratingVal={2}/></Typography>
     </Grid>
 
         </Grid>
@@ -119,6 +119,12 @@ export default function Skillstab() {
 
     <Grid item xs={12}>
         <Typography variant="p" color="white">PHPStorm, Oracle Database, Photoshop  
+        <SkillsRating ratingVal={3}/>
+        </Typography>
+    </Grid>
+
+    <Grid item xs={12}>
+        <Typography variant="p" color="white">Github 
         <SkillsRating ratingVal={3}/>
         </Typography>
     </Grid>
