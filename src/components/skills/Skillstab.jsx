@@ -104,6 +104,10 @@ export default function Skillstab() {
         <Typography variant="p" color="white">PHP laravel  
         <SkillsRating ratingVal={2}/></Typography>
     </Grid>
+    <Grid item xs={12}>
+        <Typography variant="p" color="white">Springboot 
+        <SkillsRating ratingVal={1.5}/></Typography>
+    </Grid>
 
         </Grid>
       </TabPanel>
