@@ -33,13 +33,20 @@ export default function ExperiencesButtonGrid() {
       firstText: "I worked as a Freelance web developer working for myself. I created websites for customers that commissioned " +
       "such as a gaming clan that hosted their own games servers, where they still use the base website to this day. ",
       secondText: "I used HTML, CSS and Javascript to complete the websites that was commissioned."
+    },
+    {
+      id: "4",
+      duration: "23 September 2022 – 18 November 2022",
+      firstText: "I worked as a Intern developer at Belgium Campus Botlhale Village. I created API in ASP.NET that was then hosted on a server. " +
+      "I was part of two projects and with both projects I created the API's in ASP.NET and used Entity Framework to generate the databases.",
+      secondText: "I used ASP.NET and C# to create API's and used Entity Framework to generated the databases."
     }]
 
   const [active, setActive] = useState("");
 
   let StartActive = () =>
   {
-    if(active !== "1" && active !== "2" && active !== "3")
+    if(active !== "1" && active !== "2" && active !== "3" && active !== "4")
     {
       setActive("1");
     }
@@ -60,6 +67,8 @@ export default function ExperiencesButtonGrid() {
     else  if (act === "2") 
       return true;
     else  if (act === "3") 
+      return true;
+    else  if (act === "4") 
       return true;
     else
     return false;
@@ -92,6 +101,14 @@ export default function ExperiencesButtonGrid() {
                 Freelance Web Developer
               </Button>
             </Grid>
+
+            <Grid item xs={12} md={9} lg={8}>
+              <Button id={"4"} variant={active === "4" ? "contained" : "text"}  startIcon={<CodeIcon/>} fullWidth= "true" sx={{
+                color: "white", display: "flex", justifyContent: "start", fontFamily: `Ubuntu, sans-serif`, textAlign: "start"
+                , bgcolor: active === "4" ? "#131631": "transparent"}} onClick={handleClick}>
+                Intern at Bothale Village
+              </Button>
+            </Grid>
         </Grid>
         <Grid item xs={11.5} md={7} lg={7} container spacing={0}>
         <Box>
@@ -117,6 +134,7 @@ export default function ExperiencesButtonGrid() {
             <Typography variant="p" color="white" sx={{fontFamily: `Ubuntu, sans-serif`, color: "#bbe5ff"}}>
               {experiencesData[CheckIfActiveIsValid(active) ? active -1 : 0].secondText}  
             </Typography>
+            
           </Grid>
 
         </Box>

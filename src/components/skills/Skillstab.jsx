@@ -97,7 +97,7 @@ export default function Skillstab() {
         
         <Grid item xs={12}>
         <Typography variant="p" color="white">Flutter  
-        <SkillsRating ratingVal={3}/></Typography>
+        <SkillsRating ratingVal={3.5}/></Typography>
     </Grid>
 
     <Grid item xs={12}>
@@ -107,6 +107,10 @@ export default function Skillstab() {
     <Grid item xs={12}>
         <Typography variant="p" color="white">Springboot 
         <SkillsRating ratingVal={1.5}/></Typography>
+    </Grid>
+    <Grid item xs={12}>
+        <Typography variant="p" color="white">ASP.NET API's, Entity Framework 
+        <SkillsRating ratingVal={4.5}/></Typography>
     </Grid>
 
         </Grid>
