@@ -38,7 +38,7 @@ export default function ExperiencesButtonGrid() {
       id: "4",
       duration: "14 February 2022 – 15 September 2022",
       firstText: "I worked as a Intern at Belgium Campus. I learned new skills and languages as part of training. " +
-      "During this internship we did training projects where we had to show our understanding of the knowledge and skills we learnt. "+
+      "During this internship we did training projects where we had to show our understanding of the new knowledge and skills we learnt. "+
       "This training period was to get us ready for our intership at Belgium Campus Botlhale Village where we would work on real projects using the new skills we learnt in our training. ",
       secondText: "I learnt Flutter, React.JS, Material UI in React.JS, Java Springboot API's during this training period as well improved my existing skills."
     },
