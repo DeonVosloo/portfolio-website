@@ -47,7 +47,7 @@ export default function ExperiencesButtonGrid() {
       duration: "23 September 2022 – 18 November 2022",
       firstText: "I worked as a Intern developer at Belgium Campus Botlhale Village. I created API in ASP.NET that was then hosted on a server. " +
       "I was part of two projects and with both projects I created the API's in ASP.NET and used Entity Framework to generate the databases.",
-      secondText: "I used ASP.NET and C# to create API's and used Entity Framework to generated the databases."
+      secondText: "I used ASP.NET and C# to create API's and used Entity Framework to generate the databases."
     }]
 
   const [active, setActive] = useState("");
