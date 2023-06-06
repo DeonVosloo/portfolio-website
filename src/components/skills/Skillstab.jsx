@@ -133,7 +133,7 @@ export default function Skillstab() {
 
     <Grid item xs={12}>
         <Typography variant="p" color="white">Github 
-        <SkillsRating ratingVal={3}/>
+        <SkillsRating ratingVal={2.5}/>
         </Typography>
     </Grid>
         </Grid>
